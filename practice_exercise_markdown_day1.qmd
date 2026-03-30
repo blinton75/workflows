@@ -1,0 +1,28 @@
+---
+title: "Practice Exercise: Markdown"
+author: "Brian Linton"
+format: pdf
+date: today
+---
+
+# Sandwiches
+
+## My favorite sandwich
+
+My *favorite* sandwich is a **toasted cheese sandwich**.
+
+### Ingredients
+- Two (2) slices of [whole wheat bread](https://en.wikipedia.org/wiki/Whole_wheat_bread)
+- One (1) slice of cheese
+- One (1) bottle of yellow mustard
+
+### Instructions
+1. Toast the two slices of bread in a toaster.
+2. Place the toasted slices of bread next to each other on a microwave-safe plate.
+3. Place the slice of cheese on one slice of bread.
+4. Spread mustard on the other slice of bread.
+5. Place the slice of bread with the mustard on top of the slice of bread with the cheese, so that the mustard and cheese are in contact with each other.
+6. Place the plate with the sandwich in a microwave, and heat on high for 15 seconds to melt the cheese.
+7. Remove the plate with the sandwich from the microwave, and eat the sandwich.
+
+The sandwich should be cut so that each person receives $1/3$ of the sandwich.

@@ -1,0 +1,62 @@
+---
+title: "Sample Title"
+author: "Brian Linton"
+format: pdf
+date: today
+params:
+  species: "My species"
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+Example using a parameter: 
+The native range of `r params$species` spans from…
+
+Example italicizing a parameter: 
+The native range of *`r params$species`* spans from…
+
+Example of NEFSC stock assessment report citation in .bib format:
+
+@TechReport{NEFSC_2020_MTA_FALL,
+%author = "{Northeast Fisheries Science Center}",
+author = "NEFSC",
+shortauthor = "NEFSC",
+title = "Fall Management Track Assessments 2020",
+institution = "US Dept Commer, Northeast Fisheries Science Center",
+% address ="166 Water Street, Woods Hole, MA 02543-1026",
+number="22-08",
+%type={Center Reference Document},
+type={Ref. Doc.},
+note="173p.",
+month="",
+pages = "1--173",
+year = "2022",
+eprinttype={noaair},
+eprint={39404}
+% url="https://repository.library.noaa.gov/view/noaa/39404"
+}
+
+Example of how to move up two directory levels in a relative pathname:
+
+```{r}
+my_data <- read.csv(here:here("../../extra_data/red_fish.csv"))
+```
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
